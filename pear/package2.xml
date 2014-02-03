@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.8.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+	<name>${ant.project.name}</name>
+	<channel>${pear.channel}</channel>
+	<summary>AOP framework</summary>
+	<description>
+		This package provides an AOP framework.
+	</description>
+	<lead>
+		<name>Tim Wagner</name>
+		<user>wagnert</user>
+		<email>tw@techdivision.com</email>
+		<active>yes</active>
+	</lead>
+    <date>${actual.date}</date>
+    <time>${actual.time}</time>
+    <version>
+        <release>${release.version}</release>
+        <api>${api.version}</api>
+    </version>
+    <stability>
+        <release>${release.stability}</release>
+        <api>${api.stability}</api>
+    </stability>
+	<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+	<notes>- Add methods returning a reference</notes>
+    <contents>
+        <dir name="/"/>
+    </contents>
+	<dependencies>
+		<required>
+            <php>
+                <min>5.2.0</min>
+                <max>6.0</max>
+            </php>
+            <pearinstaller>
+                <min>1.6.2</min>
+            </pearinstaller>
+            <package>
+                <name>TechDivision_Collections</name>
+                <channel>pear.appserver.io/library</channel>
+                <min>0.1.2</min>
+            </package>
+		</required>
+		<optional>
+            <package>
+                <name>zend</name>
+                <channel>zend.googlecode.com/svn</channel>
+                <min>1.10.5</min>
+            </package>
+		</optional>
+	</dependencies>
+	<phprelease/>
+	<changelog>
+		<release xmlns="">
+                    <version>
+                        <release>0.1.30</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-12-20</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add methods returning a reference
+
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.29</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-12-20</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add bugfix, invoking addslashes method on method string params
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.28</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-12-07</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixed load function in generator to be compatible with that of DOMDocument::load()
+                    </notes>
+                </release>
+<release xmlns="">
+                    <version>
+                        <release>0.1.27</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-12-07</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactored stub.xsl to include passed by reference amp sign
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.26</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-10-08</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Minor bugfix for proxy cache
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.25</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-10-06</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add proxy cache handling
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.24</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-10-04</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Documentation and Performance improvements
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.23</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-10-03</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add cache for method signatures and matching
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.22</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-10-03</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing invalid Proxy generation
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.21</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-17</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing Stub method generation
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.20</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-17</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Optimize Stub generation to improve performance
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.19</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-17</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Optimize Stub generation to improve performance
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.18</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-16</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Optimizing Stub Generation for improved performance
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.17</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-16</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Remove reflection based method invocation in Advices because of performance issues
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.16</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-12</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Adding Context to JoinPoint
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.15</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-09</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactoring Stylesheet for Stub generation
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.14</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-09</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Renaming method init() to initProxy()
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.13</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-09</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactoring to let Proxy extend the class instaed of using as a container
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.12</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-01</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Refactoring proxy class inclusion
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.11</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-07-01</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Adding file creation time to proxys class name
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.10</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-26</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing release
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.9</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-26</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfix release
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.8</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-26</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfix release
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.7</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-26</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Bugfixing
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.6</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-26</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Add Proxy functionality.
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.5</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-24</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Removing error_log statements.
+                    </notes>
+                </release>
+<release>
+                    <version>
+                        <release>0.1.4</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2011-06-22</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        - Complete Refactoring
+                    </notes>
+                </release>
+<release>
+			<version>
+				<release>0.0.2</release>
+				<api>0.0.1</api>
+			</version>
+			<stability>
+				<release>alpha</release>
+				<api>alpha</api>
+			</stability>
+			<date>2009-11-20</date>
+			<license filesource="LICENSE.txt">Open Software License ("OSL") v. 3.0</license>
+			<notes>
+				- Adding XHProf profiling to build process
+			</notes>
+		</release>
+		<release>
+			<version>
+				<release>0.0.1</release>
+				<api>0.0.1</api>
+			</version>
+			<stability>
+				<release>alpha</release>
+				<api>alpha</api>
+			</stability>
+			<date>2009-11-09</date>
+			<license filesource="LICENSE.txt">Open Software License ("OSL") v. 3.0</license>
+			<notes>
+				- Initial release
+			</notes>
+		</release>
+	</changelog>
+</package>

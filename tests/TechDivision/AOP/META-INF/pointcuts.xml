@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pointcuts>
+    <pointcut>
+        <className>TDProject_Pointcuts_Logging</className>
+        <includeFile>TDProject/Pointcuts/Logging.php</includeFile>
+        <methodToIntercept>somefunction</methodToIntercept>
+        <interceptionPoint>before</interceptionPoint>
+        <interceptWithMethod>log</interceptWithMethod>
+    </pointcut>
+    <pointcut>
+        <className>TDProject_Pointcuts_Logging</className>
+        <includeFile>TDProject/Pointcuts/Logging.php</includeFile>
+        <methodToIntercept>somefunction</methodToIntercept>
+        <interceptionPoint>after</interceptionPoint>
+        <interceptWithMethod>log</interceptWithMethod>
+    </pointcut>
+</pointcuts>
