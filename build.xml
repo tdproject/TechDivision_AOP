@@ -346,6 +346,7 @@
     	<exec executable="${curl.bin}"  outputproperty="exec.response">
 			<arg line='-F hash="${pear.api.hash}" -F qqfile=@"${php-target.dir}/${namespace}-${release.version}.tgz" -s http://${pear.channel}/upload'/>
 		</exec>
+		<echo>${exec.response}</echo>
     </target>
     <!-- ==================================================================== -->
     <!-- Release new patch version                                            -->
