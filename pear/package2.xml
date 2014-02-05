@@ -23,7 +23,7 @@
         <api>${api.stability}</api>
     </stability>
 	<license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
-	<notes>Switching to pear.appserver.io/library PEAR channel</notes>
+	<notes>Bugfix for missing boolean parameter check/generation</notes>
     <contents>
         <dir name="/"/>
     </contents>
@@ -53,6 +53,21 @@
 	<phprelease/>
 	<changelog>
 		<release xmlns="">
+                    <version>
+                        <release>0.1.34</release>
+                        <api>0.1.3</api>
+                    </version>
+                    <stability>
+                        <release>beta</release>
+                        <api>beta</api>
+                    </stability>
+                    <date>2014-02-05</date>
+                    <license uri="http://www.gnu.org/licenses/gpl-2.0.html">GPL, version 2.0</license>
+                    <notes>
+                        Bugfix for missing boolean parameter check/generation
+                    </notes>
+                </release>
+<release xmlns="">
                     <version>
                         <release>0.1.33</release>
                         <api>0.1.3</api>

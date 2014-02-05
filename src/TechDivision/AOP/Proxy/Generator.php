@@ -445,6 +445,15 @@ class TechDivision_AOP_Proxy_Generator extends DOMDocument
         elseif(is_string($value)) {
             $default = "'" . addslashes($value) . "'";
         }
+        // check for a boolean value
+        elseif(is_bool($value)) {
+        	if ($value) {
+        		$default = 'true';
+        	}
+        	else {
+        		$default = 'false';
+        	}
+        }
         // else set it null
         else {
             $default = "null";
